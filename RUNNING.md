@@ -18,7 +18,7 @@ module load spark
 * After loading spark you can write below line to run the code 
 
 ```bash 
-time spark-submit --jars azure.jar project_weather.py BigDataProject/GHCN_Yearly/ BigDataProject/GHCN_Country/ BigDataProject/GHCN_Stations/  BigDataProject/CAIT_GHG_Emissions/ BigDataProject/Vehicle/ 
+spark-submit --jars azure.jar project_weather.py BigDataProject/GHCN_Yearly/ BigDataProject/GHCN_Country/ BigDataProject/GHCN_Stations/  BigDataProject/CAIT_GHG_Emissions/ BigDataProject/Vehicle/ 
 ```
 
 *Note: azure.jar is required because it connects spark to Azure Cosmos DB*
