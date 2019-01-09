@@ -7,17 +7,17 @@
 
 * SSH to the cluster with this command
 
-```python
+```bash
 ssh user@gateway.sfucloud.ca
 ```
 * After that make sure you load the Apache Spark v 2.3.1
 
-```python
+```bash
 module load spark
 ```
 * After loading spark you can write below line to run the code 
 
-```python 
+```bash 
 time spark-submit --jars azure.jar project_weather.py BigDataProject/GHCN_Yearly/ BigDataProject/GHCN_Country/ BigDataProject/GHCN_Stations/  BigDataProject/CAIT_GHG_Emissions/ BigDataProject/Vehicle/ 
 ```
 
