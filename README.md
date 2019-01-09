@@ -8,7 +8,7 @@
 
 # Documentation
 
-*To run this please refer [**RUNNING.md**](https://csil-git1.cs.surrey.sfu.ca/greenteam/BigData_Project_Green_Team_2018/blob/master/RUNNING.md)*
+*To run this please refer [**RUNNING.md**](https://github.com/gauravprachchhak/greenteam/blob/master/RUNNING.md)*
 
 **Data Sources:**
 * GHCN : [Global Historical Climatology Network](https://www.ncdc.noaa.gov/data-access/land-based-station-data/land-based-datasets/global-historical-climatology-network-ghcn)
